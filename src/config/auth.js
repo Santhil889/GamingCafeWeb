@@ -20,7 +20,7 @@ export function logoutGamer(){
     localStorage.removeItem('isGamerAuthenticated')
 }
 
-export const initUrl="http://localhost:8080";
+export const initUrl="http://localhost:8081";
 
 export function checkForTokenExist(){
     return localStorage.getItem('jwtToken');
