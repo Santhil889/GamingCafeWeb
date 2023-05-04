@@ -1,5 +1,5 @@
 # Base image
-FROM --platform=linux/amd64 node:19.4.0-alpine
+FROM --platform=linux node:19.4.0-alpine
 
 # Set the working directory
 WORKDIR /app
