@@ -20,7 +20,7 @@ import GamerViewBill from './components/gamerSeeBill';
 function App() {
   return (
     <div className="App">
-      
+      {/* ads */}
       <Navbar/>
       <Router>
         <Routes>
